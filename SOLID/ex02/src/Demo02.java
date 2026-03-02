@@ -13,7 +13,6 @@ public class Demo02 {
                 new OrderLine("M1", 2),
                 new OrderLine("C1", 1)
         );
-
         sys.checkout("student", order);
     }
 }
